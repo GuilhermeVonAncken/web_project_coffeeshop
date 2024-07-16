@@ -144,7 +144,7 @@
   background-size: cover;
   height: 100vh;
 }
-.recipes__content-title {
+.content__recipes-title {
   max-width: 580px;
   margin-left: 80px;
   font-family: "Inter", "Arial", sans-serif;
@@ -155,7 +155,7 @@
   color: #ffffff;
   padding-top: 100px;
 }
-.recipes__content-subtitle {
+.content__recipes-subtitle {
   max-width: 438px;
   margin-left: 80px;
   margin-bottom: 80px;
