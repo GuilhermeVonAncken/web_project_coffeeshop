@@ -2,11 +2,20 @@
 <html lang="pt">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Web Projects" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Guilherme Von Ancken" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biblioteca Triple Peaks</title>
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -62,41 +71,42 @@
       </header>
 
       <main class="content">
-        <h2 class="recipes__title" id="Receitas">Receitas</h2>
-        <p class="recipes__subtitle">
+        <h2 class="recipes__content-title" id="Receitas">Receitas</h2>
+        <p class="recipes__content-subtitle">
           Confira algumas receitas que coletamos para <br />
           seu lanchinho caseiro:
         </p>
-        <section class="recipes__videos">
-          <div class="recipes__videos-container">
+        <section class="recipes__content-videos">
+          <div class="recipes__content-videos-container">
             <iframe
+              class="recipes__content-videos-frame"
               width="480"
               height="273"
-              frameborder="0"
               src="https://www.youtube.com/embed/j6VlT_jUVPc"
               title="The Ultimate AeroPress Technique (Episode #3)"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <h3 class="recipes__videos-title">
-              Receita Aeropress <span class="recipes__videos-time">~5min</span>
+            <h3 class="recipes__content-videos-title">
+              Receita Aeropress
+              <span class="recipes__content-videos-time">~5min</span>
             </h3>
           </div>
-          <div class="recipes__videos-container">
+          <div class="recipes__content-videos-container">
             <iframe
+              class="recipes__content-videos-frame"
               width="480"
               height="273"
               src="https://www.youtube.com/embed/st571DYYTR8"
               title="The Ultimate French Press Technique"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <h3 class="recipes__videos-title">
+            <h3 class="recipes__content-videos-title">
               Receita de Prensa Francesa
-              <span class="recipes__videos-time">~15min</span>
+              <span class="recipes__content-videos-time">~15min</span>
             </h3>
           </div>
         </section>
