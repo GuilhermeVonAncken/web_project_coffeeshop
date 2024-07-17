@@ -144,6 +144,10 @@
   background-size: cover;
   height: 100vh;
 }
+.content__recipes {
+  max-width: 600px;
+  margin: 0;
+}
 .content__recipes-title {
   max-width: 580px;
   margin-left: 80px;
