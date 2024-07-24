@@ -228,7 +228,7 @@
 .reservation__form-style {
   border-style: none;
 }
-.reservation__form--input {
+.reservation__form-input {
   border-radius: 4px;
   margin-bottom: 32px;
   margin-top: 8px;
@@ -241,7 +241,7 @@
   font-size: 20px;
   line-height: 30px;
 }
-.reservation__form--label {
+.reservation__form-label {
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;

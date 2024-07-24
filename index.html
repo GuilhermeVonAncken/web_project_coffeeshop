@@ -114,62 +114,64 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <div class="form">
-            <form class="reservation__form">
-              <fieldset class="reservation__form-style">
-                <label for="name" class="reservation__form--label"
-                  >Nome *
-                  <input
-                    type="text"
-                    class="reservation__form--input"
-                    id="name"
-                    placeholder="Nome"
-                  />
-                </label>
-                <label for="number-of-guests" class="reservation__form--label"
-                  >Número de convidados *
-                  <input
-                    type="number"
-                    class="reservation__form--input"
-                    id="number-of-guests"
-                    placeholder="1-8"
-                  />
-                </label>
-                <label for="reservation-date" class="reservation__form--label"
-                  >Data & hora *
-                  <input
-                    type="datetime-local"
-                    class="reservation__form--input"
-                    id="reservation-date"
-                  />
-                </label>
-                <label for="reservation-email" class="reservation__form--label"
-                  >Seu e-mail *
-                  <input
-                    type="email"
-                    class="reservation__form--input"
-                    id="reservation-email"
-                    placeholder="email@email.com"
-                  />
-                </label>
-              </fieldset>
-              <button class="reservation__button" type="submit">
-                Reservar uma mesa
-              </button>
-              <div>
-              <label for="reservation-table" class="reservation__form--label reservation__option">
+
+          <form class="form reservation__form">
+            <fieldset class="reservation__form-style">
+              <label for="name" class="reservation__form-label"
+                >Nome *
+                <input
+                  type="text"
+                  class="reservation__form-input"
+                  id="name"
+                  placeholder="Nome"
+                />
+              </label>
+              <label for="number-of-guests" class="reservation__form-label"
+                >Número de convidados *
+                <input
+                  type="number"
+                  class="reservation__form-input"
+                  id="number-of-guests"
+                  placeholder="1-8"
+                />
+              </label>
+              <label for="reservation-date" class="reservation__form-label"
+                >Data & hora *
+                <input
+                  type="datetime-local"
+                  class="reservation__form-input"
+                  id="reservation-date"
+                />
+              </label>
+              <label for="reservation-email" class="reservation__form-label"
+                >Seu e-mail *
+                <input
+                  type="email"
+                  class="reservation__form-input"
+                  id="reservation-email"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button class="reservation__button" type="submit">
+              Reservar uma mesa
+            </button>
+            <div>
+              <label
+                for="reservation-table"
+                class="reservation__form-label reservation__option"
+              >
                 <input
                   type="checkbox"
-                  class="reservation__form--input"
+                  class="reservation__form-input"
                   id="reservation-table"
                 />
-                <div class="reservation__text">
+                <p class="reservation__text">
                   Eu concordo com os termos de uso
-                </div>
-              </div>
+                </p>
               </label>
-            </form>
-          </div>
+            </div>
+          </form>
         </section>
       </main>
       <footer class="footer" id="footer"></footer>
