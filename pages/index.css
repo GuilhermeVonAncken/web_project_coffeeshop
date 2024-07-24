@@ -210,7 +210,7 @@
   background-color: #d9e7ff;
 }
 .reservation__title {
-  margin-bottom: 80px;
+  margin: 100px auto 80px auto;
   text-align: center;
   padding-top: 100px;
   font-family: "Inter", "Arial", sans-serif;
