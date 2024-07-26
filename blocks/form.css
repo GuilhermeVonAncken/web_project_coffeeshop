@@ -1,0 +1,13 @@
+.form {
+  margin: 100px 0;
+  padding-bottom: 120px;
+}
+.reservation__form {
+  max-width: 385px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.reservation__form-style {
+  border-style: none;
+}
