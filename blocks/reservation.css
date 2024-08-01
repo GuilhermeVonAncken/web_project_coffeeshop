@@ -5,6 +5,7 @@
   background-image: url(/images/background_reservation.svg);
   background-size: cover;
   background-color: #d9e7ff;
+  position: relative;
 }
 .reservation__title {
   margin: 0 auto 80px auto;
